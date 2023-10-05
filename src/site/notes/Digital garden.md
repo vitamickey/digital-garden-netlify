@@ -10,6 +10,8 @@ The main reference for what a digital garden is comes from [Maggie Appleton](htt
 
 For me, the main pull towards maintaining a digital garden is that it's not as intensive as a blog. As outlined in Maggie's writing, a blog requires you to do all of this background research before eventually deciding to release a perfectly manicured opinion to the internet, exerting your intellectual authority onto all who pass through your site. A digital garden acknowledges that learning is ongoing, and that we will never know everything, or anything, in its entirety.
 
+I recently overhauled this website, and more can be read about this at [[Digital Garden overhaul with Obsidian Plugin\|Digital Garden overhaul with Obsidian Plugin]].
+
 ## Some inspiration
 
 Zettels theme
