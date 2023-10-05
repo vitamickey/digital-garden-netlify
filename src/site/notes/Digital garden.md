@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/digital-garden/","title":"Digital garden","tags":["productivity","learning","technology","personal-knowledge-management","gardenEntry"]}
 ---
 
-
 A digital garden is a place for thoughts, knowledge and ideas to grow.
 
 Reminds me of a second brain, PKM (personal knowledge management system), life wiki, Zettelkasten, all those bigs words. But there is something distinctly cute uwu about the notion of a digital garden.
