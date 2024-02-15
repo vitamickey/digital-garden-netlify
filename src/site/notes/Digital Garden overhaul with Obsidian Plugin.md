@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/digital-garden-overhaul-with-obsidian-plugin/","title":"Digital Garden overhaul with Obsidian Plugin","tags":["technology","website","coding"]}
 ---
 
+
 up::[[Digital garden\|Digital garden]]
 
 Okay so, Apparrently, the [Obsidian Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) plugin exists. Which means I'm gonna change my Hugo website to be more like a personal website and see if I can run the the digital garden website off a sub-link from the main website. So, the base URL for the digital garden being `michaelacheong.com/notes`, or something like that.
