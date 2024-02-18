@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hugo/","title":"Hugo","tags":["website","technology","coding"]}
+{"dg-publish":true,"permalink":"/hugo/","title":"Hugo","tags":["website","technology","coding"],"created":"2022-05-23T15:04:53+10:00","updated":"2023-10-05"}
 ---
 
 ## Workflow
