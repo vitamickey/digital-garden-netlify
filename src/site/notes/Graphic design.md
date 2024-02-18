@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/graphic-design/","title":"Graphic design","tags":["reference","arts"]}
+{"dg-publish":true,"permalink":"/graphic-design/","title":"Graphic design","tags":["reference","arts"],"created":"2022-05-31T18:37:34+10:00","updated":"2023-10-05"}
 ---
 
 
