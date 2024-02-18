@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden-overhaul-with-obsidian-plugin/","title":"Digital Garden overhaul with Obsidian Plugin","tags":["technology","website","coding"]}
+{"dg-publish":true,"permalink":"/digital-garden-overhaul-with-obsidian-plugin/","title":"Digital Garden overhaul with Obsidian Plugin","tags":["technology","website","coding"],"created":"2023-10-05","updated":"2023-10-05"}
 ---
 
 
