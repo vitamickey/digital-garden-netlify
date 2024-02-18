@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/art/","title":"Art","tags":["arts"]}
+{"dg-publish":true,"permalink":"/art/","title":"Art","tags":["arts"],"created":"2022-06-21T09:23:28+10:00","updated":"2022-09-13"}
 ---
 
 
