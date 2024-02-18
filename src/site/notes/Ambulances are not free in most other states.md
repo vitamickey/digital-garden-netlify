@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ambulances-are-not-free-in-most-other-states/","title":"Ambulances are not free in most other states","tags":["what"]}
+{"dg-publish":true,"permalink":"/ambulances-are-not-free-in-most-other-states/","title":"Ambulances are not free in most other states","tags":["what"],"created":"2022-08-09","updated":"2022-08-09"}
 ---
 
 
