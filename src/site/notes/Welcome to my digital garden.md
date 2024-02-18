@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/welcome-to-my-digital-garden/","title":"Welcome to my digital garden","tags":["about","meta","gardenEntry"]}
+{"dg-publish":true,"permalink":"/welcome-to-my-digital-garden/","title":"Welcome to my digital garden","tags":["about","meta","gardenEntry"],"created":"2022-05-25T08:53:38+10:00","updated":"2024-02-18"}
 ---
 
 
@@ -20,3 +20,7 @@ Digital gardens are not really meant to be chronological or easily navigable. Th
 This website will be a combination of a personal wiki and a digital garden. Some notes will be titled as things, some will be ideas and declarative statements, some will be abstract titles (I think I have been inspired by [vlogbrothers](https://www.youtube.com/user/vlogbrothers) in that regard), and some will be none of those things. If I think too hard about maintaining consistency in my post titles then I will cease to write anything at all.
 
 In future, this might become a list of key notes for navigation purposes or to start off. idk.
+
+## Jumping off points
+
+Faith. [[Let's Get Creative\|Let's Get Creative]]. [[Recipes MOC\|Recipes MOC]]. Languages. Mathematics.
