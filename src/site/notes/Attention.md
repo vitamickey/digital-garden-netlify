@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/attention/","title":"Attention","tags":["consumption"]}
+{"dg-publish":true,"permalink":"/attention/","title":"Attention","tags":["consumption"],"created":"2022-10-31","updated":"2022-10-31"}
 ---
 
 
