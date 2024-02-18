@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/git-hub/","title":"GitHub","tags":["coding","technology"]}
+{"dg-publish":true,"permalink":"/git-hub/","title":"GitHub","tags":["coding","technology"],"created":"2022-05-23T15:34:05+10:00","updated":"2023-10-05"}
 ---
 
 I am an absolute GitHub noob, but like, I'm trying my best.
