@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/all-things-are-lawful/","title":"All things are lawful...","tags":["bible"]}
+{"dg-publish":true,"permalink":"/all-things-are-lawful/","title":"All things are lawful...","tags":["bible"],"created":"2022-05-28T09:32:44+10:00","updated":"2022-07-23"}
 ---
 
 
