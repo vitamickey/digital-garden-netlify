@@ -3,8 +3,6 @@
 ---
 
 
-OH GOSH I gotta edit these all bc everything is in Hugo shortcode lol. Cannot be viewed in Obsidian at all.
-
 I used to not see the big deal about art. But art is nice.
 
 ## Pretty thing that make me go "ooo"
