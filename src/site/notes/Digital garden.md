@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/","title":"Digital garden","tags":["productivity","learning","technology","personal-knowledge-management"],"created":"2022-05-23","updated":"2023-10-05"}
+{"dg-publish":true,"permalink":"/digital-garden/","title":"Digital garden","tags":["productivity","learning","technology","personal-knowledge-management"],"created":"2022-05-23","updated":"2024-02-19"}
 ---
 
 A digital garden is a place for thoughts, knowledge and ideas to grow.
