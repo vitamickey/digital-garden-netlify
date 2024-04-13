@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/almond-butter/","title":"Almond butter","tags":["recipes"],"created":"2022-10-28","updated":"2022-10-28"}
+{"dg-publish":true,"permalink":"/almond-butter/","title":"Almond butter","tags":["recipe"],"created":"2022-10-28","updated":"2022-10-28"}
 ---
 
 
