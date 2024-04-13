@@ -1,0 +1,25 @@
+  .markdown-preview-view {
+    font-size: var(--font-text-size);
+    font-family: var(--font-text);
+    line-height: var(--line-height-normal);
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+    margin: auto;
+    padding: var(--gap);
+    position: relative;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    color: var(--text-normal);
+    user-select: text;
+    -webkit-user-select: text;
+  }
+  .workspace-leaf-content.is-read-mode .markdown-preview-view {
+    width: 100%;
+    left: 0;
+    background-color: var(--background-primary);
+  }
+  .markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: var(--file-line-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
