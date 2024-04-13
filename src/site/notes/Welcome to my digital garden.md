@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/welcome-to-my-digital-garden/","title":"Welcome to my digital garden","tags":["about","meta","gardenEntry"],"created":"2022-05-25T08:53:38+10:00","updated":"2024-02-18"}
+{"dg-publish":true,"permalink":"/welcome-to-my-digital-garden/","title":"Welcome to my digital garden","tags":["about","meta","gardenEntry","gardenEntry","gardenEntry"],"created":"2022-05-25T08:53:38+10:00","updated":"2024-02-18"}
 ---
 
 
