@@ -3,6 +3,7 @@ img {
 }
 
 .content {
+    max-width: 600px;
     margin: auto;
     font-size: 17px;
     line-height: 1.6;
@@ -31,8 +32,7 @@ ul.task-list {
 
 .toc {
     padding-right: 5px;
-    background-color: var(--color-l-yellow-500);
-    padding: 5px;
+    padding: 10px;
     border: 1px solid var(--color-l-gray-30);
     border-radius: var(--radius);
 
@@ -84,9 +84,8 @@ ul.task-list {
     display: flex;
     justify-content: flex-start;
     .toc-title {
+        margin: 4px 0;
         font-size: 18px !important;
-        color: var(--h6-color);
-        width: fit-content;
         padding: 3px 7px 3px 0;
         border-radius: 10px 10px 0 0;
     }
@@ -94,20 +93,22 @@ ul.task-list {
 
 .backlinks {
     flex: 1;
-    margin-top: 10px;
-    background: var(--color-l-blue-500);
-    border-radius: 10px;
+    margin-top: 10px 0px 20px 0px;
+    border: 1px solid var(--color-l-gray-30);
+    border-radius: var(--radius);
     padding: 10px;
 
     .backlink-title {
         margin: 4px 0;
         font-size: 18px !important;
+        padding: 3px 7px 3px 0;
         color: var(--h6-color);
     }
 }
 
 .backlink-list {
     border: 1px solid var(--color-l-gray-30);
+    border-radius: var(--radius);
     max-height: 200px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -137,12 +138,11 @@ ul.task-list {
 .navbar {
     background-color: var(--background-primary);
     position: absolute;
-    width: 100%;
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
     top: 0;
     left: 0;
     right: 0;
     z-index: 3;
-    padding-left: var(--file-margins);
     display: flex;
     justify-content: space-between;
     align-items: center;
