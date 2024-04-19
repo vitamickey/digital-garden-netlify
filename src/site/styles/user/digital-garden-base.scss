@@ -29,6 +29,15 @@ ul.task-list {
     margin-bottom: 8px;
 }
 
+.sidebar-container {
+    padding-right: 20px;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 87%;
+}
 
 .toc {
     padding-right: 5px;
@@ -93,7 +102,7 @@ ul.task-list {
 
 .backlinks {
     flex: 1;
-    margin-top: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     border: 1px solid var(--color-l-gray-30);
     border-radius: var(--radius);
     padding: 10px;
@@ -101,32 +110,34 @@ ul.task-list {
     .backlink-title {
         margin: 4px 0;
         font-size: 18px !important;
-        padding: 3px 7px 3px 0;
+        padding: 3px 10px 3px 10px;
         color: var(--h6-color);
     }
 }
 
 .backlink-list {
-    border: 1px solid var(--color-l-gray-30);
-    border-radius: var(--radius);
+    border-left: 1px solid var(--text-accent);
     max-height: 200px;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
 .backlink-card {
-    padding-bottom: 8px;
-    border-radius: 4px;
-    width: 100%;
-    font-size: 1rem;
-    margin-left: 10px;
+    padding: 3px 10px 3px 10px;
+    margin-left: none;
     color: var(--text-normal);
     i {
         font-size: 0.8rem;
     }
 
     .backlink {
-        margin-left: 5px;
+        margin-left: 0;
+    }
+
+    svg.svg-icon {
+        height: 0;
+        width: 0;
+        stroke-width: 0;
     }
 }
 
