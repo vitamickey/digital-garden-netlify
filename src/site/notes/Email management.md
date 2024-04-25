@@ -49,6 +49,6 @@ The setup Tiago outlines is nice, and I've followed almost all of it. BUT I like
 
 Forward everything to Gmail because its features are better.[^2]
 
-[^1]: One-Touch to Inbox Zero: How I Spend 17 Minutes Per Day on Email by Tiago Forte on [fortelabs.co](https://fortelabs.co/blog/one-touch-to-inbox-zero/)[^2]
+[^1]: One-Touch to Inbox Zero: How I Spend 17 Minutes Per Day on Email by Tiago Forte on [fortelabs.co](https://fortelabs.co/blog/one-touch-to-inbox-zero/)
 
 [^2]: How to Build the Ultimate Productivity System (2022) by Ali Abdaal on [YouTube](https://www.youtube.com/watch?v=T6hmdrsLQj8)
