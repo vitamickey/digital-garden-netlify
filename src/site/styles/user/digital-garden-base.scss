@@ -171,15 +171,18 @@ ul.task-list {
 
 .navbar {
     background-color: var(--background-primary);
+    max-width: calc(var(--nav-width) + var(--gap)* 2);
+    margin: auto;
 
     @media (max-width: 800px) {
         h1 {
-            font-size: 24px !important;
+            font-size: 24px;
         }
     }
 
     .navbar-inner {
         h1 {
+            font-size: 24px !important;
             color: var(--text-normal);
         }
     }
