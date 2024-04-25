@@ -23,9 +23,9 @@ Link: [Working as of 2022-07-02](https://www.candacehicks.com/)
 
 Link: [Working as of 2022-07-02](https://www.instagram.com/candacehicksart/), [archived 2022-07-02](https://web.archive.org/web/20220702002619/https://www.candacehicks.com/notes-for-string-theory.html)
 
-| These | are | cool |
-| :----: | :----: | :----: |
-|![notes-for-string-theory-1-candace-hicks.jpeg](/img/user/attachments/art/notes-for-string-theory-1-candace-hicks.jpeg)|![notes-for-string-theory-2-candace-hicks.jpeg](/img/user/attachments/art/notes-for-string-theory-2-candace-hicks.jpeg)|![notes-for-string-theory-3-candace-hicks.jpeg](/img/user/attachments/art/notes-for-string-theory-3-candace-hicks.jpeg)|
+|                       These                       |                        are                        |                       cool                        |
+| :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: |
+| ![notes-for-string-theory-1-candace-hicks.jpeg](/img/user/attachments/art/notes-for-string-theory-1-candace-hicks.jpeg) | ![notes-for-string-theory-2-candace-hicks.jpeg](/img/user/attachments/art/notes-for-string-theory-2-candace-hicks.jpeg) | ![notes-for-string-theory-3-candace-hicks.jpeg](/img/user/attachments/art/notes-for-string-theory-3-candace-hicks.jpeg) |
 
 #### Books
 
