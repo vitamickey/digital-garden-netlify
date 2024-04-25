@@ -36,7 +36,7 @@ ul.task-list {
 }
 
 .sidebar {
-    right: 50px;
+    margin-right: 30px;
 }
 
 .sidebar-container {
@@ -150,6 +150,14 @@ ul.task-list {
 }
 
 @media (max-width: 1400px) {
+    .sidebar {
+        margin: auto !important;
+    }
+
+    .sidebar-container {
+        flex-direction: column;
+    }
+
     .toc {
         display: revert;
     }
@@ -163,8 +171,6 @@ ul.task-list {
 
 .navbar {
     background-color: var(--background-primary);
-    position: absolute;
-    max-width: calc(var(--nav-width) + var(--gap) * 2);
 
     @media (max-width: 800px) {
         h1 {
@@ -258,4 +264,8 @@ ul.task-list {
     @media (max-width: 800px) {
         display: none;
     }
+}
+
+.timestamps {
+    margin-top: 5px;
 }
