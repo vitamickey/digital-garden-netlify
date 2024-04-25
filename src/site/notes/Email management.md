@@ -7,21 +7,23 @@
 
 more here: <https://kinsta.com/blog/gmail-keyboard-shortcuts/#:~:text=Property%20Value%20%20Gmail%20Keyboard%20Shortcut%20%20,conversations%20%20%20%2A%2BA%20%20%20%2A%2BA%20>
 
-| command   | task      | task in new tab   |
-| :---      | :---      | :---              |
-| `c`         | compose   | `d` |
-| `r`         | reply       | `shift+` |
-| `a`         | reply-all   | `shift+` |
-| `f`         | forward   | `shift+` |
-| `e`         | archive    |  |
-| `ctrl+enter` | send   |  |
-| `#`           | delete   |  |
-| `z`         | undo   |  |
-| `shift+i`     | mark read   |  |
-| `shift+u`     | mark unread   |  |
-| `/`           | search   |  |
+| command | task | task in new tab |
+| :-- | :-- | :-- |
+| `c` | compose | `d` |
+| `r` | reply | `shift+` |
+| `a` | reply-all | `shift+` |
+| `f` | forward | `shift+` |
+| `e` | archive | |
+| `ctrl+enter` | send | |
+| `#` | delete | |
+| `z` | undo | |
+| `shift+i` | mark read   | |
+| `shift+u` | mark unread | |
+| `/` | search | |
 
-## Tiago Forte - One touch to inbox zero[^1]
+## Tiago Forte - One touch to inbox zero
+
+Source below[^1]
 
 - calendar
 - task manager, archive
