@@ -2,6 +2,12 @@ img {
     max-width: 100%;
 }
 
+.header-tags {
+    a.tag {
+        margin-right: 5px;
+    }
+}
+
 .content {
     max-width: 600px;
     margin: auto;
@@ -205,34 +211,23 @@ ul.task-list {
 }
 
 .search-box input {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
-.search-box input:focus {
-    outline: none;
-}
-
-#search-results {
-    margin-top: 20px;
-    overflow-y: auto;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    max-height: 50vh;
-}
 
 #search-results .searchresult {
-    margin-bottom: 15px;
-    list-style: none;
-    background-color: var(--background-secondary);
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 1.2rem;
+    background-color: var(--color-base-05);
+    font-size: 1rem;
     cursor: pointer;
 
     &.active {
         border: 2px solid var(--text-accent);
     }
+}
+
+.search-link {
+    margin-bottom: 0px;
+    font-size: 1.2rem;
 }
 
 .search-button {

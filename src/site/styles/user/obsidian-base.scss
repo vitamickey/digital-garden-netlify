@@ -1,3 +1,7 @@
 .markdown-preview-view {
     padding: var(--content-gap);
   }
+
+textarea, input[type=text], input[type=search], input[type=email], input[type=password], input[type=number] {
+    background: var(--color-base-05);
+}
