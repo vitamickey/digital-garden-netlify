@@ -7,7 +7,7 @@
 
 Fender American Telecaster, Vintage White. '51 Nocaster-style pick-up, mod by my stepdad.
 
-Given as a 21st birthday gift by [[people/Mark Hayman\|my stepdad]]. He is a guitar head.
+Given as a 21st birthday gift by [[people/Mark Hayman\|my stepdad]]. He is a guitar head, and a very good guitarist.
 
 
 
