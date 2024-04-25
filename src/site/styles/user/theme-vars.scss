@@ -57,7 +57,7 @@ body {
     --font-monospace: var(--font-monospace-override), var(--font-monospace-theme), var(--font-monospace-default);
     --font-text-size: 16px;
     --font-mermaid: var(--font-text);
-    --font-header: 'Avara_Black', 'EB Garamond', Georgia, 'Times New Roman', Times, serif;
+    --font-header: 'Avara_Black', 'EB Garamond', 'Garamond', 'Times New Roman', Times, serif;
     /* Headings */
     --heading-formatting: var(--text-faint);
     --h1-font: var(--font-header);
@@ -151,9 +151,6 @@ body {
     --tab-radius-active: 12px 12px 0 0;
     --tab-width: 200px;
     --tab-max-width: 320px;
-    --accent-h: 254;
-    --accent-s: 80%;
-    --accent-l: 68%;
     --background-modifier-hover: rgba(var(--mono-rgb-0), 1.0);
     /*──────────other things──────────*/
     --gap: 23px;
@@ -205,6 +202,7 @@ body {
     --color-base-100: var(--color-l-black);
     --color-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
     --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+    --ax1: hsl(var(--accent-h), var(--accent-s), var(--accent-l)); /* redundant? */
     --color-accent-1: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 2.5%));
     --color-accent-2: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 5%));
     --input-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12),
@@ -225,6 +223,7 @@ body {
     0px 30px 90px rgba(0, 0, 0, 0.2);
     /*─────────Original Obsidian Variables──────────*/
     --background-primary: var(--color-l-white);
+    --bg1: var(--color-l-white);
     --background-primary-alt: var(--color-l-gray-10);
     --background-secondary: var(--color-l-gray-20);
     --background-secondary-alt: var(--color-l-gray-20);
@@ -272,9 +271,9 @@ body {
     --color-l-gray-100: hsl(35, 32%, 30%);
     --color-l-black: hsl(var(--mono-hsl-100));
     --color-l-blacker: hsl(32, 55%, 12%);
-    --color-l-shadow-10: rgba(168, 160, 148, 0.8);
-    --color-l-shadow-50: rgba(180, 172, 161, 0.3);
-    --color-l-shadow-100: rgba(75, 70, 64, 0.2);
+    --color-l-shadow-10: rgba(168, 160, 148, 0.8); /* --ui1: rgba(168, 160, 148, 0.8); */
+    --color-l-shadow-50: rgba(180, 172, 161, 0.3); /* --ui2: rgba(180, 172, 161, 0.3); */
+    --color-l-shadow-100: rgba(75, 70, 64, 0.2); /* --ui3: rgba(75, 70, 64, 0.2); */
     --color-l-shadow-cover: rgba(177, 171, 164, 0.5);
     --color-l-yellow: var(--color-l-yellow-500);
     --color-l-yellow-300: hsl(43, 71%, 67%);
@@ -289,6 +288,9 @@ body {
     --color-l-blue: var(--color-l-blue-500);
     --color-l-blue-300: hsl(198, 39%, 56%);
     --color-l-blue-500: hsl(205, 66%, 46%);
+    --accent-h: 205;
+    --accent-s: 66%;
+    --accent-s: 46%;
     --color-l-blue-700: hsl(205, 63%, 39%);
     --color-l-blue-900: hsl(205, 95%, 25%);
     --color-l-orange: var(--color-l-orange-500);
@@ -358,10 +360,12 @@ body {
     --color-base-100: var(--color-d-white);
     --color-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
     --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+    --ax1: hsl(var(--accent-h), var(--accent-s), var(--accent-l)); /* redundant? */
     --color-accent-1: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) - 3.8%));
     --color-accent-2: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 3.8%));
     /* Backgrounds */
     --background-primary: var(--color-d-gray-70);
+    --bg1: var(--color-d-gray-70);
     --background-primary-alt: var(--color-d-gray-90);
     --background-secondary: var(--color-d-black);
     --background-secondary-alt: var(--color-d-black);
@@ -415,14 +419,20 @@ body {
     --color-d-gray-90: hsl(30, 15%, 13%);
     --color-d-gray-100: hsl(30, 20%, 8%);
     --color-d-black: hsl(27, 15%, 12%);
+    --base-h: 27;
+    --base-s: 15%;
+    --base-l: 12%;
     --color-d-blacker: hsl(26, 16%, 9%);
-    --color-d-shadow-10: rgba(29, 21, 13, 0.45);
-    --color-d-shadow-50: rgba(29, 26, 22, 0.75);
-    --color-d-shadow-100: rgba(19, 16, 13, 0.95);
+    --color-d-shadow-10: rgba(29, 21, 13, 0.45); /*    --ui1: rgba(29, 21, 13, 0.45); */
+    --color-d-shadow-50: rgba(29, 26, 22, 0.75); /*    --ui2: rgba(29, 26, 22, 0.75); */
+    --color-d-shadow-100: rgba(19, 16, 13, 0.95); /*    --ui3: rgba(19, 16, 13, 0.95); */
     --color-d-shadow-cover: rgba(37, 34, 29, 0.74);
     --color-d-yellow: var(--color-d-yellow-500);
     --color-d-yellow-300: hsl(46, 91%, 69%);
     --color-d-yellow-500: hsl(50, 100%, 46%);
+    --accent-h: 50;
+    --accent-s: 100%;
+    --accent-s: 46%;
     --color-d-yellow-700: hsl(43, 100%, 42%);
     --color-d-yellow-900: hsl(39, 92%, 33%);
     --color-d-yellow-a: hsl(43, 75%, 52%);
