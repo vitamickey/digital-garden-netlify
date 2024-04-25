@@ -144,110 +144,37 @@ ul.task-list {
 }
 
 @media (max-width: 1400px) {
-    #link-graph {
-        border-radius: 10px 0 10px 10px;
+    .toc {
+        display: revert;
     }
-    .sidebar {
-        position: fixed;
-        transform: none;
-        margin-top: 0px;
-        max-width: 350px;
-        margin: auto;
-        border-radius: 0;
-        border-top: 0px solid var(--background-secondary);
-        justify-content: flex-start; /* might need to fix this? */
-    }
+}
 
+@media (max-width: 800px) {
     .sidebar-container {
-        display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    .toc {
-        display: revert;
     }
 }
-
-@media (max-width: 1100px) {
-    .sidebar {
-        position: relative;
-        transform: none;
-        border-radius: 4px;
-        margin-top: 50px;
-        max-width: 700px;
-        margin: auto;
-        border-radius: 0;
-        border-top: 2px solid var(--background-secondary);
-        justify-content: space-between;
-    }
-
-    .sidebar-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .toc {
-        display: revert;
-    }
-}
-
 
 .navbar {
     background-color: var(--background-primary);
     position: absolute;
     max-width: calc(var(--nav-width) + var(--gap) * 2);
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 3;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    @media (max-width: 1400px) {
-        position: fixed;
-    }
 
     @media (max-width: 800px) {
         h1 {
-            font-size: 18px !important;
+            font-size: 24px !important;
         }
     }
 
     .navbar-inner {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
         h1 {
             color: var(--text-normal);
-        }
-    }
-
-    .search-button {
-        @media (max-width: 800px) {
-            min-width: 36px;
-            margin: 10px 25px 10px 25px;
-        }
-    }
-
-    .search-text {
-        display: flex;
-        justify-content: center;
-        @media (max-width: 800px) {
-            display: none;
         }
     }
 }
 
 .fullpage-overlay {
     background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 5;
 }
 
 .search-container {
