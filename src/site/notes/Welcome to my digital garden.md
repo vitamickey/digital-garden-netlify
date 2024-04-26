@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/welcome-to-my-digital-garden/","title":"Welcome to my digital garden","tags":["about","meta","gardenEntry"],"created":"2022-05-25T08:53:38+10:00","updated":"2024-02-18"}
+{"dg-publish":true,"permalink":"/welcome-to-my-digital-garden/","title":"Welcome to my digital garden","tags":["about","meta","gardenEntry"],"created":"2022-05-25T08:53:38+10:00","updated":"2024-04-26"}
 ---
 
 
@@ -9,17 +9,13 @@ Some places to start on this website would be my post about [[Digital garden\|di
 
 ## Things you should know before trekking through this site
 
-What I put here is a living, breathing garden. These things I've learned, ideas, opinions, essays, etc., are open to change, and open to growth. You can suggest edits to my notes on GitHub in the meta at the bottom of each post. I will try to enable comments soon too.
+🌻 **This is my living, breathing garden.** *These things I've learned, ideas, opinions, essays, etc., are open to change, and open to growth.* Hopefully this does show my change over time, but please keep in mind that some things will represent my thoughts currently, but if a note is particularly old, it may represent my thoughts from x years ago.
 
-Notes here are probably written for me and not for general public consumption, so, it's likely that not everything will make sense. I like to make notes comprehensible enough for myself to understand, though, so hopefully that's not too much of an issue?? Actually, as I have been working on this site, I am naturally making my notes more for general consumption than I intended to, and I guess that's okay.
+🦋 **Notes will be in various stages of growth.** Some notes will be super developed and long, others may be empty/single-sentence. I would like to adopt some kind of metaphor for growth on this website (like maybe cocoons into caterpillars into butterflies, since I have chosen the butterfly for my website motif), but we'll see.
 
-There will be a variety of developed (evergreen) notes, vs. budding or growing notes. I would like to adopt some kind of metaphor for growth on this website (like maybe cocoons into caterpillars into butterflies, since I have chosen the butterfly for my website motif), but we'll see.
+✏ **Notes here are primarily written for me** and not for general public consumption, so, it's likely that some things will not make sense. I like to make notes comprehensible enough for myself to understand, so hopefully that's not too much of an issue? Stuff to be written on my [personal website, michaelacheong.com](https://michaelacheong.com/) is more intended for an audience other than myself.
 
-Digital gardens are not really meant to be chronological or easily navigable. They should be densely linked to each other so that one can trawl through them similarly to how you would in a forest. I would like to get there eventually, but haven't set up a good backlink system yet, so the archive is currently chronological as is the pagination from the home page.
-
-This website will be a combination of a personal wiki and a digital garden. Some notes will be titled as things, some will be ideas and declarative statements, some will be abstract titles (I think I have been inspired by [vlogbrothers](https://www.youtube.com/user/vlogbrothers) in that regard), and some will be none of those things. If I think too hard about maintaining consistency in my post titles then I will cease to write anything at all.
-
-In future, this might become a list of key notes for navigation purposes or to start off. idk.
+📖 **This website will be a combination of a personal wiki and a digital garden.** Some notes will be titled as things, some will be ideas and declarative statements, some will be abstract titles (I think I have been inspired by [vlogbrothers](https://www.youtube.com/user/vlogbrothers) in that regard), and some will be none of those things. If I think too hard about maintaining consistency in my note titles then I will cease to write anything at all.
 
 ## Jumping off points
 
