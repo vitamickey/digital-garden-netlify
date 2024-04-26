@@ -1,10 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/","title":"Digital garden","tags":["productivity","learning","technology","personal-knowledge-management","needs-update"],"created":"2022-05-23","updated":"2024-02-19"}
+{"dg-publish":true,"permalink":"/digital-garden/","title":"Digital garden","tags":["productivity","learning","technology","personal-knowledge-management","needs-update"],"created":"2022-05-23","updated":"2024-04-26"}
 ---
+
 
 A digital garden is a place for thoughts, knowledge and ideas to grow.
 
-Reminds me of a second brain, PKM (personal knowledge management system), life wiki, Zettelkasten, all those bigs words. But there is something distinctly cute uwu about the notion of a digital garden.
+## Philosophy
+
+Digital gardens are not really meant to be chronological or easily navigable. They should be densely linked to each other so that one can trawl through them similarly to how you would in a forest. 
+
+Reminds me of a second brain, PKM (personal knowledge management system), life wiki, [[Zettelkasten\|Zettelkasten]], [[Evergreen notes\|Evergreen notes]], all those bigs words. But there is something distinctly cute uwu about the notion of a digital garden.
 
 The main reference for what a digital garden is comes from [Maggie Appleton](https://maggieappleton.com/garden-history). I will not follow the original ethos to the T, but it's a very nice read nonetheless.
 
