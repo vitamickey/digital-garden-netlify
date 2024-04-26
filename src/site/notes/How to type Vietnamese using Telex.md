@@ -9,7 +9,9 @@ Switch between keyboards with `Windows + Space`
 
 ## Key
 
-### Letters[^1]
+### Letters
+
+From yourvietnamese.com[^1].
 
 | Letter group | â, ê, ô, đ | ư, ơ and ă |
 |---|:---:|:---:|
@@ -17,7 +19,9 @@ Switch between keyboards with `Windows + Space`
 | Example | `aa` | `aw` |
 | Output | â | ă |
 
-### The 5 diacritics[^1]
+### The 5 diacritics
+
+From yourvietnamese.com[^1].
 
 | Diacritics | acute ´ | grave \` | hook  ̉ | tilde ~ | dot . |
 |---|:---:|:---:|:---:|:---:|:---:|
