@@ -10,6 +10,10 @@ In terms of the actual overhaul on my digital garden, I'm pretty close to just [
 
 It currently runs with [[Minimal (Obsidian Theme)\|Minimal (Obsidian Theme)]], using colours taken from [[Primary (Obsidian Theme)\|Primary (Obsidian Theme)]]. The main issue is that I can't figure, based on the website set-up, how to make the 404 pages take on my custom CSS attributes, as it just takes them from the Obsidian theme you've decided to use, and the 404 page doesn't even load up the custom CSS.
 
+## A weird workaround
+
+There seems to be some error where the `dg-home` property thinks that your homepage note is updated every time you open the publication centre. Additionally, every time you update the note and republish it, a script adds the `gardenEntry` tag, in order to signal to the website to give the note the home contents appearance. To fix this, I simply changed the note to have the `gardenEntry` tag and removed the `dg-home` property.
+
 ---
 
 Okay so, Apparently, the [Obsidian Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) plugin exists. Which means I'm gonna change my Hugo website to be more like a personal website and see if I can run the the [[Digital garden\|Digital garden]] website off a sub-link from the main website. So, the base URL for the digital garden being `michaelacheong.com/notes`, or something like that.
