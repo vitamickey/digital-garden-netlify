@@ -13,7 +13,7 @@ My pinterest board on art at [pinterest.com.au](https://www.pinterest.com.au/mic
 
 Link: [Working as of 2022-06-21](https://alibeaudette.com/bookmark-a-collection-of-items-found-in-returned-library-books-2017), [archived 2022-01-24](https://web.archive.org/web/20220124221233/https://alibeaudette.com/bookmark-a-collection-of-items-found-in-returned-library-books-2017)
 
-![bookmark-ali-beaudette.jpeg|Picture of collection: bookmark by ali beaudette](/img/user/ATTACHMENTS/art/bookmark-ali-beaudette.jpeg)
+![bookmark-ali-beaudette.jpeg|Picture of collection: bookmark by ali beaudette](/img/user/attachments/art/bookmark-ali-beaudette.jpeg)
 
 ### Candace Hicks art
 
@@ -23,9 +23,9 @@ Link: [Working as of 2022-07-02](https://www.candacehicks.com/)
 
 Link: [Working as of 2022-07-02](https://www.instagram.com/candacehicksart/), [archived 2022-07-02](https://web.archive.org/web/20220702002619/https://www.candacehicks.com/notes-for-string-theory.html)
 
-| These | are | cool |
-| :----: | :----: | :----: |
-|![notes-for-string-theory-1-candace-hicks.jpeg](/img/user/ATTACHMENTS/art/notes-for-string-theory-1-candace-hicks.jpeg)|![notes-for-string-theory-2-candace-hicks.jpeg](/img/user/ATTACHMENTS/art/notes-for-string-theory-2-candace-hicks.jpeg)|![notes-for-string-theory-3-candace-hicks.jpeg](/img/user/ATTACHMENTS/art/notes-for-string-theory-3-candace-hicks.jpeg)|
+|                       These                       |                        are                        |                       cool                        |
+| :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: |
+| ![notes-for-string-theory-1-candace-hicks.jpeg](/img/user/attachments/art/notes-for-string-theory-1-candace-hicks.jpeg) | ![notes-for-string-theory-2-candace-hicks.jpeg](/img/user/attachments/art/notes-for-string-theory-2-candace-hicks.jpeg) | ![notes-for-string-theory-3-candace-hicks.jpeg](/img/user/attachments/art/notes-for-string-theory-3-candace-hicks.jpeg) |
 
 #### Books
 
@@ -33,19 +33,19 @@ Link: [Working as of 2022-07-02](https://www.instagram.com/candacehicksart/), [a
 
 | Some | books |
 | :----: | :----: |
-|![books-1-candace-hicks.jpeg](/img/user/ATTACHMENTS/art/books-1-candace-hicks.jpeg)|![books-2-candace-hicks.jpeg](/img/user/ATTACHMENTS/art/books-2-candace-hicks.jpeg)|
+|![books-1-candace-hicks.jpeg](/img/user/attachments/art/books-1-candace-hicks.jpeg)|![books-2-candace-hicks.jpeg](/img/user/attachments/art/books-2-candace-hicks.jpeg)|
 
 ### BATS
 
 Bat art. Purchased as part of Project 4 Awesome 2022. My first perk. Created by Taylor Behnke, and powered by Gatorade. It's a lino print with a diagonal peach to deep lavender gradient and happy little bats. It's so cute look at the little baby bats AGH.
 
-![bat-by-taylor-behnke.jpg](/img/user/ATTACHMENTS/art/bat-by-taylor-behnke.jpg)
+![bat-by-taylor-behnke.jpg](/img/user/attachments/art/bat-by-taylor-behnke.jpg)
 
 This has a close connection to the beginning of my journey into [[Linguistics\|Linguistics]]. At the start of this year (2022), I watched Crash Course Linguistics, hosted by Taylor Behnke, to get a taste of linguistics before my uni semester started. This year, I took my first linguistics course at uni, which I just barely missed the intake for last year. When the 2022 P4A rolled around, I tuned in, and it just so happened that Taylor Behnke was hosting a few hours of the stream. The event also closely coincided with me starting my linguistics course. So, what better way to spend my money than to support a charity event that excites me than buying a piece of art which also commemorates a turning point in my linguistics journey?
 
 ### Fruit stickers
 
-![bon-appetit-fruit-stickers.jpg](/img/user/ATTACHMENTS/art/bon-appetit-fruit-stickers.jpg)
+![bon-appetit-fruit-stickers.jpg](/img/user/attachments/art/bon-appetit-fruit-stickers.jpg)
 
 I can't remember why it came up, but I remembered that fruit labels are cool. Here are links, roughly in order of discovery:
 

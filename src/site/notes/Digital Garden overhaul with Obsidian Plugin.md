@@ -1,7 +1,20 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden-overhaul-with-obsidian-plugin/","title":"Digital Garden overhaul with Obsidian Plugin","tags":["technology","website","coding"],"created":"2023-10-05","updated":"2024-02-19"}
+{"dg-publish":true,"permalink":"/digital-garden-overhaul-with-obsidian-plugin/","title":"Digital Garden overhaul with Obsidian Plugin","tags":["technology","website","coding"],"created":"2023-10-05","updated":"2024-04-25"}
 ---
 
+2024-04-25
+
+I figured out that it was quite easy to duplicate my Hugo website repo into a new one with a more suitable/descriptive name, freeing up my digital garden repo for something new. I just had to make sure I didn't mess up the submodules into the GitHub pages repo, but I figured it all out and my website isn't broken so that's good.
+
+In terms of the actual overhaul on my digital garden, I'm pretty close to just [[Making my own Obsidian Theme\|Making my own Obsidian Theme]] in order for the website to work exactly how I want it, but for now, I am relatively satisfied with all the tweaking I've done to the [[CSS\|CSS]]. I really want to learn how to make [[Nunjucks\|Nunjucks]] scripts, so I can add different things to each note, but I have a small problem in that I don't uhhhh even know how to write [[JavaScript\|JavaScript]].
+
+It currently runs with [[Minimal (Obsidian Theme)\|Minimal (Obsidian Theme)]], using colours taken from [[Primary (Obsidian Theme)\|Primary (Obsidian Theme)]]. The main issue is that I can't figure, based on the website set-up, how to make the 404 pages take on my custom CSS attributes, as it just takes them from the Obsidian theme you've decided to use, and the 404 page doesn't even load up the custom CSS.
+
+## A weird workaround
+
+There seems to be some error where the `dg-home` property thinks that your homepage note is updated every time you open the publication centre. Additionally, every time you update the note and republish it, a script adds the `gardenEntry` tag, in order to signal to the website to give the note the home contents appearance. To fix this, I simply changed the note to have the `gardenEntry` tag and removed the `dg-home` property.
+
+---
 
 Okay so, Apparently, the [Obsidian Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) plugin exists. Which means I'm gonna change my Hugo website to be more like a personal website and see if I can run the the [[Digital garden\|Digital garden]] website off a sub-link from the main website. So, the base URL for the digital garden being `michaelacheong.com/notes`, or something like that.
 

@@ -9,10 +9,8 @@
   - Online, at your own pace
   - Good reviews??
 
-PURCHASED lisa mills on [[DAILYISH/2022/08/2022-08-22\|Aug 22, 2022]]
+PURCHASED lisa mills on [[dailyish/2022/08/2022-08-22\|Aug 22, 2022]]
 
 [[Lisa Mills - Auslan Online Level 1\|Lisa Mills - Auslan Online Level 1]]
 
-::: hidden
-There is a course that runs in Moorooka with Deaf Connect as well
-:::
+

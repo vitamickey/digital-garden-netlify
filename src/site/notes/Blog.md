@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/","title":"Blog","tags":["technology"],"created":"2022-03-31","updated":"2022-08-06"}
+{"dg-publish":true,"permalink":"/blog/","title":"Blog","tags":["technology","needs-work"],"created":"2022-03-31","updated":"2022-08-06"}
 ---
 
 
