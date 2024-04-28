@@ -4,7 +4,7 @@ img {
 
 .header-tags {
     a.tag {
-        margin-right: 5px;
+        margin-right: 20px;
     }
 }
 
@@ -47,6 +47,7 @@ ul.task-list {
 .toc {
     padding: 0px;
     margin-top: 10px;
+    background-color: var(--color-base-20);
 
     ol {
         list-style: none;
@@ -109,6 +110,7 @@ ul.task-list {
     border: 1px solid var(--color-l-gray-30);
     border-radius: var(--radius);
     padding: 10px;
+    background-color: var(--color-base-20);
 
     .backlink-title {
         margin: 4px 0;
@@ -170,7 +172,7 @@ ul.task-list {
 }
 
 .navbar {
-    background-color: var(--background-primary);
+    background-color: transparent; /* #f2e3e3 */
     max-width: calc(var(--nav-width) + var(--gap)* 2);
     margin: auto;
 
@@ -184,6 +186,8 @@ ul.task-list {
         h1 {
             font-size: 24px !important;
             color: var(--text-normal);
+            box-shadow: 0px 0px 5px 5px rgba(247, 244, 239, 0.9); /* #f7f4ef */
+            background-color: rgba(247, 244, 239, 0.9); /* #f7f4ef */
         }
     }
 }
