@@ -237,8 +237,8 @@ body {
     --text-normal: var(--color-base-100);
     --text-muted: var(--color-base-50);
     --text-faint: var(--color-base-40);
-    --text-accent: var(--color-berry-2);
-    --text-accent-hover: var(--color-berry-1);
+    --text-accent: var(--color-berry-3);
+    --text-accent-hover: var(--color-berry-2);
     // --text-error: var(--color-l-red);
     // --text-error-hover: var(--color-l-red);
     // --text-highlight-bg: var(--color-l-highlight-yellow);
@@ -256,7 +256,7 @@ body {
     --scrollbar-active-thumb-bg: var(--interactive-accent);
     /*─────────Original Obsidian Variables──────────*/
     /*~ Colours */
-    --color-sky-1: #e8edee;
+    --color-sky-1: #e8edee; /* background start gradient */
     --color-sky-2: #d8e6e9;
     --color-sky-3: #c9dfe6;
     --color-sky-4: #b1d1db; 
@@ -267,7 +267,7 @@ body {
     --color-base-05: #eff2de;
     --color-base-10: #ecefda;
     --color-base-20: #e9ecd3;
-    --color-base-25: #dfe3c4;
+    --color-base-25: #dfe3c4; /* background end gradient */
     --color-base-30: #dbe0bc;
     --color-base-35: #d0d6ad;
     --color-base-40: #afbe76;
@@ -275,8 +275,10 @@ body {
     --color-base-60: #576f2c;
     --color-base-70: #3e5b15;
     --color-base-100: #152104;
-    --color-berry-1: #a3173c;
-    --color-berry-2: #8d1132;
+    --color-berry-1: #f8d4de;
+    --color-berry-2: #e63362;
+    --color-berry-3: #c31846;
+    --color-berry-4: #8e1233;
     --accent-h: 344; /* equiv. to #8d1132 */
     --accent-s: 78%; /* equiv. to #8d1132 */
     --accent-l: 31%; /* equiv. to #8d1132 */
