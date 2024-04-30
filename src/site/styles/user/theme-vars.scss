@@ -189,20 +189,6 @@ body {
     --color-blue: var(--color-l-blue);
     --color-purple: var(--color-l-violet);
     --color-violet: var(--color-l-violet);
-    --color-base-00: var(--color-l-white);
-    --color-base-05: var(--color-l-gray-10);
-    --color-base-10: var(--color-l-gray-20);
-    --color-base-20: var(--color-l-gray-30);
-    --color-base-25: var(--color-l-gray-40);
-    --color-base-30: var(--color-l-gray-50);
-    --color-base-35: var(--color-l-gray-60);
-    --color-base-40: var(--color-l-gray-70);
-    --color-base-50: var(--color-l-gray-80);
-    --color-base-60: var(--color-l-gray-90);
-    --color-base-70: var(--color-l-gray-100);
-    --color-base-100: var(--color-l-black);
-    --color-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
-    --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
     --color-accent-1: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 2.5%));
     --color-accent-2: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 5%));
     --input-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12),
@@ -275,10 +261,10 @@ body {
     --color-base-60: #576f2c;
     --color-base-70: #3e5b15;
     --color-base-100: #152104;
-    --color-berry-1: #f8d4de;
-    --color-berry-2: #e63362;
-    --color-berry-3: #c31846;
-    --color-berry-4: #8e1233;
+    --color-berry-1: #f3989c;
+    --color-berry-2: #ec4e55;
+    --color-berry-3: #be2727;
+    --color-berry-4: #a41939;
     --accent-h: 344; /* equiv. to #8d1132 */
     --accent-s: 78%; /* equiv. to #8d1132 */
     --accent-l: 31%; /* equiv. to #8d1132 */
