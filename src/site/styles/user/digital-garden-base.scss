@@ -44,6 +44,10 @@ ul.task-list {
 .sidebar-container {
     padding-right: 0px;
     margin: 0px 20px;
+
+    & > .toc {
+        border: 1px solid var(--color-base-30);
+    }
 }
 
 .toc {
@@ -157,7 +161,7 @@ ul.task-list {
 @media (max-width: 1400px) {
     .sidebar {
         margin: auto !important;
-        border-top: 2px solid var(--background-primary);
+        border-top: 0px;
     }
 
     .sidebar-container {
@@ -259,13 +263,6 @@ ul.task-list {
     background-color: var(--color-berry-3);
     color: var(--color-base-20);
     border: var(--border-width) solid var(--color-berry-4);
-
-    &:hover {
-        background-color: var(--color-berry-4);
-        box-shadow: 0px 0px;
-        color: var(--color-base-20);
-        border: var(--border-width) solid var(--color-berry-4);
-    }
 }
 
 .search-link {
@@ -287,6 +284,10 @@ ul.task-list {
 
 .timestamps {
     margin-top: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 19px;
 }
 
 ::-webkit-scrollbar-thumb {
