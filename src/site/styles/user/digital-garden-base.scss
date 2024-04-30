@@ -24,7 +24,7 @@ img {
 }
 
 .markdown-preview-view pre.mermaid {
-    background: var(--color-l-whiter);
+    background: var(--color-base-00);
     border-radius: 25px;
     padding: 10px;
 }
@@ -49,7 +49,7 @@ ul.task-list {
 .toc {
     padding: 0px;
     margin-top: 10px;
-    background-color: var(--color-base-20);
+    background-color: var(--color-base-10);
 
     ol {
         list-style: none;
@@ -58,10 +58,10 @@ ul.task-list {
     }
 
     & > ol {
-        padding: 10px 20px 0 20px;
-        border-top: 1px solid var(--color-l-gray-30);
+        padding: 0 20px;
         border-left: none;
     }
+
 }
 
 .toc-container {
@@ -98,8 +98,9 @@ ul.task-list {
 .toc-title-container {
     display: flex;
     justify-content: flex-start;
+    border-bottom: 1px solid var(--color-base-30);
     .toc-title {
-        margin: 10px 10px 0px 10px;
+        margin: 10px;
         font-size: 18px !important;
         padding: 3px 10px 3px 10px;
         border-radius: 10px 10px 0 0;
@@ -109,10 +110,10 @@ ul.task-list {
 .backlinks {
     flex: 1;
     margin: 10px 0px 30px 0px;
-    border: 1px solid var(--color-l-gray-30);
+    border: 1px solid var(--color-base-30);
     border-radius: var(--radius);
     padding: 10px;
-    background-color: var(--color-base-20);
+    background-color: var(--color-base-10);
 
     .backlink-title {
         margin: 4px 0;
@@ -156,6 +157,7 @@ ul.task-list {
 @media (max-width: 1400px) {
     .sidebar {
         margin: auto !important;
+        border-top: 2px solid var(--background-primary);
     }
 
     .sidebar-container {
@@ -190,14 +192,14 @@ ul.task-list {
             font-size: 24px !important;
             color: var(--text-normal);
             background-color: rgba(250,248,242,.9); /* #faf8f2 */
-            box-shadow: 0px 0px 5px 5px rgba(250,248,242,.9); /* #faf8f2 */
-            border-radius: var(--radius);
-            padding: 0px 10px;
+            box-shadow: 0px 0px 7px 7px rgba(250,248,242,.9); /* #faf8f2 */
+            border-radius: 20px;
+            padding: 0px 15px;
 
             &:hover {
-                background-color: rgba(250,248,242,.8); /* #faf8f2 */
+                background-color: rgba(250,248,242,.85); /* #faf8f2 */
                 border: 0px solid var(--tag-border-color-hover);
-                box-shadow: 0px 0px 10px 5px rgba(250,248,242,.8); /* #faf8f2 */
+                box-shadow: 0px 0px 10px 5px rgba(250,248,242,.85); /* #faf8f2 */
             }
         }
 
@@ -261,7 +263,6 @@ ul.task-list {
     &:hover {
         background-color: var(--color-berry-4);
         box-shadow: 0px 0px;
-        background-color: var(--color-berry-3);
         color: var(--color-base-20);
         border: var(--border-width) solid var(--color-berry-4);
     }
@@ -273,17 +274,31 @@ ul.task-list {
 }
 
 .search-button {
-    background-color: var(--color-cloud-1);
+    background-color: rgba(250, 248, 242, .9);
     border: 0px solid var(--color-cloud-2);
-    box-shadow: 0px 0px 5px 5px rgba(250, 248, 242, .9);
+    box-shadow: 0px 0px 7px 4px rgba(250, 248, 242, .9);
 
     &:hover {
-        background-color: rgba(250,248,242,.8); /* #faf8f2 */
+        background-color: rgba(250,248,242,.85); /* #faf8f2 */
         border: 0px solid var(--tag-border-color-hover);
-        box-shadow: 0px 0px 10px 5px rgba(250,248,242,.8); /* #faf8f2 */
+        box-shadow: 0px 0px 10px 5px rgba(250,248,242,.85); /* #faf8f2 */
     }
 }
 
 .timestamps {
     margin-top: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-base-10);
+    border: 5px solid var(--color-base-40);
+    border-radius: var(--radius);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-base-30)
+}
+
+::-webkit-scrollbar-track {
+    background: 0 0;
 }
