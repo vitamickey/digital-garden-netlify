@@ -324,40 +324,6 @@ ul.task-list {
         background: var(--color-base-30)
     }
     
-    /* Buttons */
-    
-    ::-webkit-scrollbar-button:single-button {
-      background-color: var(--color-base-30);
-      display: block;
-      border-style: solid;
-      height: 13px;
-      width: 16px;
-    }
-    
-    
-    /* Up */
-    
-     ::-webkit-scrollbar-button:single-button:vertical:decrement {
-      border-width: 0 8px 8px 8px;
-      border-color: transparent transparent var(--color-base-40) transparent;
-    }
-    
-     ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
-      border-color: transparent transparent var(--color-base-50) transparent;
-    }
-    
-    /* Down */
-    
-     ::-webkit-scrollbar-button:single-button:vertical:increment {
-      border-width: 8px 8px 0 8px;
-      border-color: var(--color-base-40) transparent transparent transparent;
-    }
-    
-     ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
-      border-color: var(--color-base-50) transparent transparent transparent;
-    }
-    
-    
     /* Track */
     
     ::-webkit-scrollbar-track {
