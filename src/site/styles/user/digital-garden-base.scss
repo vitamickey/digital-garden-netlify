@@ -8,6 +8,8 @@ img {
         margin-right: 15px;
         white-space: nowrap;
     }
+
+
 }
 
 .content {
@@ -184,6 +186,7 @@ ul.task-list {
     max-width: calc(var(--nav-width) + var(--gap)* 2);
     margin: auto;
     position: fixed;
+    padding: 5px 5px;
 
     @media (max-width: 800px) {
         h1 {
@@ -207,6 +210,18 @@ ul.task-list {
             }
         }
 
+    }
+
+    .search-button {
+        margin: 10px 30px 10px 25px;
+
+        @media (max-width: 800px) {
+            margin: 10px 35px 10px 25px;
+        }
+
+        @media (max-width: 767px) {
+            margin: 10px 15px 10px 25px;
+        }
     }
 }
 
@@ -263,6 +278,13 @@ ul.task-list {
     background-color: var(--color-berry-3);
     color: var(--color-base-20);
     border: var(--border-width) solid var(--color-berry-4);
+    
+    &:hover {
+        box-shadow: 0px 0px;
+        background-color: var(--color-berry-3);
+        color: var(--color-base-20);
+        border: var(--border-width) solid var(--color-berry-4);
+    }
 }
 
 .search-link {
@@ -286,20 +308,26 @@ ul.task-list {
     margin-top: 5px;
 }
 
-::-webkit-scrollbar {
-    width: 19px;
-}
 
-::-webkit-scrollbar-thumb {
-    background: var(--color-base-10);
-    border: 5px solid var(--color-base-40);
-    border-radius: var(--radius);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: var(--color-base-30)
-}
-
-::-webkit-scrollbar-track {
-    background: 0 0;
+@media (min-width: 767px) {
+    ::-webkit-scrollbar {
+        width: 17px
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: var(--color-base-40);
+        border: 2px solid var(--color-base-30);
+        border-radius: var(--radius);
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--color-base-30)
+    }
+    
+    /* Track */
+    
+    ::-webkit-scrollbar-track {
+        background-color: var(--color-base-10);
+    }
+    
 }
