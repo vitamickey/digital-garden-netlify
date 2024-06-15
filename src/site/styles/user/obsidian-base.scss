@@ -1,5 +1,5 @@
 .markdown-preview-view {
-    background-image: linear-gradient(to bottom, #abe0eb, #e8edee, #ddeceb, #d6ebe1, #d7e8d3, #dfe3c4);    /* #abe0eb place at the top of gradient --color-sky-1 to --color-base-25 from https://mycolor.space/gradient?ori=to+bottom&hex=%23E8EDEE&hex2=%23DFE3C4&sub=1 */
+    background-image: linear-gradient(to bottom, #e8edee, #ddeceb, #d6ebe1, #d7e8d3, #dfe3c4);    /* gradient --color-sky-1 to --color-base-25 from https://mycolor.space/gradient?ori=to+bottom&hex=%23E8EDEE&hex2=%23DFE3C4&sub=1 */
     padding: var(--content-gap);
   }
 
@@ -24,8 +24,55 @@ a.tag,
       color: var(--color-cloud-3);
       box-shadow: 0px 0px 10px 5px rgba(250,248,242,.8); /* #faf8f2 */
     }
-  }
+}
   
+@media (min-width: 767px) {
+    .content {
+        h1 {
+            &::before {
+                position: absolute;
+                left: -1.5em;
+                font-size: 0.8em;
+            }
+        }
+        h2 {
+            &::before {
+                position: absolute;
+                left: -1.5em;
+                font-size: 0.8em;
+            }
+        }
+        h3 {
+            &::before {
+                position: absolute;
+                left: -1.5em;
+                font-size: 0.8em;
+            }
+        }
+        h4 {
+            &::before {
+                position: absolute;
+                left: -1.5em;
+                font-size: 0.8em;
+            }
+        }
+        h5 {
+            &::before {
+                position: absolute;
+                left: -1.5em;
+                font-size: 0.8em;
+            }
+        }
+        h6 {
+            &::before {
+                position: absolute;
+                left: -1.5em;
+                font-size: 0.8em;
+            }
+        }
+    }    
+}
+
 .content {
     h1 {
         &::before {
