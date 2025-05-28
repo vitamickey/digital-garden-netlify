@@ -10,26 +10,32 @@ A typeface describes an overall style of letters, and fonts refer to the specifi
 ## This website and the other one too
 
 - Times New Roman on both
-  - HIGHLY COMPATIBLE
-    - Websafe
-    - Supports languages that I need/type in
-      - IPA (phonetic alphabet)
-      - Vietnamese
-      - French
-      - literally any alphabet I could possibly want
-  -  I like the basic vibe ngl :) it adds a certain dated quality that makes me feel quirky
+    - HIGHLY COMPATIBLE
+	    - Websafe
+	    - Supports languages that I need/type in
+	         - IPA (phonetic alphabet)
+	         - Vietnamese
+	         - French
+	         - literally any alphabet I could possibly want
+     -  I like the basic vibe ngl :) it adds a certain dated quality that makes me feel quirky
 - [Avara](https://velvetyne.fr/fonts/avara/) using for title headers on my personal website, but I can't figure out how to get them to work for the [[Digital Garden overhaul with Obsidian Plugin\|Digital Garden website]].
 - [Xanh Mono](https://fonts.google.com/specimen/Xanh+Mono) also on personal website bc it's made for vietnamese and I think it looks really nice. Only downfall is that its readability is pretty Bad.
   - Considering replacing this with [Recursive](https://www.recursive.design/) or [M PLUS Code Latin](https://fonts.google.com/specimen/M+PLUS+Code+Latin)
 
-## Pretty typefaces <3
+### Showcase
+
+### Pretty typefaces <3
 
 - [Avara](https://velvetyne.fr/fonts/avara/) as prev. mentioned. A font that has no curves, only straight lines
-- [Cantique](https://velvetyne.fr/fonts/cantique/) Viet support
 - [Wremena](https://typefaces.temporarystate.net/preview/Wremena) it's just vibey
 - [Junicode Bold Condensed](https://open-foundry.com/fonts/junicode_bold_condensed) it gives Newspaper.
-- [Recursive](https://www.recursive.design/) very cool... Viet support. But I got a bit sick of it, I think it's too *fun* for me.
 - [Basteleur](https://www.velvetyne.fr/fonts/basteleur/) modern but medieval
+
+### Cool typefaces
+
+- [Cantique](https://velvetyne.fr/fonts/cantique/) Viet support with a Greek letter twist
+- [Recursive](https://www.recursive.design/) very cool... Viet support. But I got a bit sick of it, I think it's too *fun* for me.
+- [https://rosettatype.com/Handjet](https://rosettatype.com/Handjet) a variable font that animates letters using a grid of repeated elements
 
 ### Typefaces with a story in my life
 
@@ -39,10 +45,12 @@ A typeface describes an overall style of letters, and fonts refer to the specifi
 
 ### Other typefaces with a story
 
-- [Occlusion Grotesque](https://bjoernkarmann.dk/occlusion-grotesque), a typeface being made by a tree.
+- [Occlusion Grotesque](https://bjoernkarmann.dk/project/occlution_grotesque), a typeface being made by a tree.
 - [22/22](https://2222.seabellfoundry.com/), a collection of 22 fonts being released once at a time for free throughout end of 2022, or donate and receive all fonts released at time of donation.
 
-### Where to get fonts (for free)
+## Where to get fonts
+
+### for free
 
 - [Velvetyne](https://velvetyne.fr) has sooooooo many nice ones I would use so many of them!!! French peeps.
 - [Collletttivo](http://collletttivo.it/) seems cool! I like their small collection
@@ -51,3 +59,21 @@ A typeface describes an overall style of letters, and fonts refer to the specifi
 - [Free Faces](https://www.freefaces.gallery/) 
 - [Fontshare](https://www.fontshare.com/) by the Indian Type Foundry
 - [Dirtyline Studio](https://dirtylinestudio.com/) 
+- [Pixel Surplus](https://pixelsurplus.com/) haven't used this but had a note about it from Jan 2023 so adding it here
+- [Font Squirrel](https://www.fontsquirrel.com/)
+- [https://font.download](https://font.download/) 
+- [https://www.dafont.com](https://www.dafont.com/) 
+- [https://texturelabs.org](https://texturelabs.org/) 
+- [https://resourceboy.com](https://resourceboy.com/) 
+- [https://www.fontshare.com](https://www.fontshare.com/)
+- [https://uncut.wtf](https://uncut.wtf/)
+- [https://xcicero.esad-gv.net/](https://xcicero.esad-gv.net/) just discovered via [this link](https://www.instagram.com/reel/C7hQnR3IRDa/) and wow they are stunning
+- [https://republi.sh/](https://republi.sh/) is a Vietnamese typeface foundry
+
+### for slightly less free
+
+- Paid but cheap [https://www.fontspring.com](https://www.fontspring.com/)
+
+## Identifying fonts
+
+Can't identify a font? [https://www.myfonts.com/pages/whatthefont](https://www.myfonts.com/pages/whatthefont) 
