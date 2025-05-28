@@ -59,4 +59,3 @@ A typeface describes an overall style of letters, and fonts refer to the specifi
 - [Free Faces](https://www.freefaces.gallery/) 
 - [Fontshare](https://www.fontshare.com/) by the Indian Type Foundry
 - [Dirtyline Studio](https://dirtylinestudio.com/) 
-
