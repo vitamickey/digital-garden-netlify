@@ -61,19 +61,19 @@ A typeface describes an overall style of letters, and fonts refer to the specifi
 - [Dirtyline Studio](https://dirtylinestudio.com/) 
 - [Pixel Surplus](https://pixelsurplus.com/) haven't used this but had a note about it from Jan 2023 so adding it here
 - [Font Squirrel](https://www.fontsquirrel.com/)
-- [https://font.download](https://font.download/) 
-- [https://www.dafont.com](https://www.dafont.com/) 
-- [https://texturelabs.org](https://texturelabs.org/) 
-- [https://resourceboy.com](https://resourceboy.com/) 
-- [https://www.fontshare.com](https://www.fontshare.com/)
-- [https://uncut.wtf](https://uncut.wtf/)
-- [https://xcicero.esad-gv.net/](https://xcicero.esad-gv.net/) just discovered via [this link](https://www.instagram.com/reel/C7hQnR3IRDa/) and wow they are stunning
-- [https://republi.sh/](https://republi.sh/) is a Vietnamese typeface foundry
+- [font.download](https://font.download/) 
+- [dafont.com](https://www.dafont.com/) 
+- [texturelabs.org](https://texturelabs.org/) 
+- [resourceboy.com](https://resourceboy.com/) 
+- [fontshare.com](https://www.fontshare.com/)
+- [uncut.wtf](https://uncut.wtf/)
+- [xcicero.esad-gv.net](https://xcicero.esad-gv.net/) just discovered via [this link](https://www.instagram.com/reel/C7hQnR3IRDa/) and wow they are stunning
+- [republi.sh](https://republi.sh/) is a Vietnamese typeface foundry
 
 ### for slightly less free
 
-- Paid but cheap [https://www.fontspring.com](https://www.fontspring.com/)
+- Paid but cheap [fontspring.com](https://www.fontspring.com/)
 
 ## Identifying fonts
 
-Can't identify a font? [https://www.myfonts.com/pages/whatthefont](https://www.myfonts.com/pages/whatthefont) 
+Can't identify a font? [myfonts.com/pages/whatthefont](https://www.myfonts.com/pages/whatthefont) 
