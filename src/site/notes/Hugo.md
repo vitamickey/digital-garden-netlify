@@ -14,16 +14,17 @@
   - empty `/public/` except for `.git` and `CNAME`
   - build static files with `hugo -t papermod`
   - do github things
-    - create new branch for `public` submodule as `YYMMDD`
+    - create new branch for `public` submodule as `YYYY-MM-DD`
     - stage all changes
     - commit
     - publish branch
     - create pull request
-    - merge with main
+    - merge with `main`
       - resolve any errors in VSCode if necessary (often with my clumsy coding skills is necessary)
-    - delete branch on GitHub
-    - delete branch locally on VSCode
-    - checkout? to main branch and sync with remote main
+    - delete `YYYY-MM-DD` branch on GitHub
+    - check-out to `YYYY-MM-DD`  on VSCode
+    - delete `YYYY-MM-DD` branch locally on VSCode
+    - sync `main` with remote
   - check site is live
     - record any errors that may have happened
   - repeat "do github things" with `digital-gardens` repo once satisfied
@@ -277,5 +278,25 @@ IT WORKED! Don't need the other fix anymore.
 #### Favicon troubleshooting
 
 uh
+
+## Header external link to garden stuff
+
+I made a cute little thing on https://editor.method.ac/ and then added to `header.html`.
+
+```
+                        <path d="m691,343c8,6 8,6 7.95313,5.9534c0.04687,0.0466 5.04687,-47.9534 -6.95313,13.0466" opacity="NaN" fill="currentColor"/>
+
+                        <path d="m651,357" opacity="NaN" fill="currentColor"/>
+
+                        <path d="m700.485,308.03792l0.56913,0l0.17587,-0.54067l0.17587,0.54067l0.56913,0l-0.46044,0.33415l0.17588,0.54067l-0.46044,-0.33416l-0.46044,0.33416l0.17588,-0.54067l-0.46044,-0.33415z" fill="currentColor"/>
+
+                        <path d="m647.91964,290.31466c0.12781,-0.28313 0.35823,-0.52479 0.55426,-0.76461c0.22804,0.15391 0.42505,0.49249 0.59645,0.72831c-0.15288,0.27277 -0.37295,0.52118 -0.5712,0.76581c-0.21372,-0.22381 -0.39648,-0.47951 -0.57952,-0.72951l0,0l0.00001,0z" fill="currentColor"/>
+
+                        <path fill="currentColor" opacity="NaN" d="m555.15062,220.82672c-3.22766,3.51585 0.63401,5.24495 0.62824,5.22766c0.00577,0.0173 2.59943,-8.7435 -0.62824,-5.22766z"/>
+
+                        <path fill="currentColor" opacity="NaN" d="m-23.58793,-75.60289l-4.15562,-1.28531l4.15562,1.28531z"/>
+
+                        <path d="m6.00368,3.67933c2.06147,-5.16818 10.13838,0 0,6.6448c-10.13838,-6.6448 -2.06147,-11.81297 0,-6.6448z" stroke-width="1.5" fill="#000000"/>
+```
 
 [^reverse]: https://push.blue/posts/20220718-reverse-papermodnavlinks/

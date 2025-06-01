@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/css/","title":"CSS","tags":["technology"],"created":"2022-05-23T21:54:05+10:00","updated":"2022-08-02"}
+{"dg-publish":true,"permalink":"/css/","title":"CSS","tags":["technology"],"created":"2022-05-23T21:54:05+10:00","updated":"2024-05-16"}
 ---
 
 
@@ -14,3 +14,5 @@ Need to fix theme-vars.css with my actual desired fonts lol
 - Line length tool <http://www.unit-conversion.info/texttools/add-line-break-by-length/>
 - Typography <https://www.editorx.com/shaping-design/article/font-size>
 - Functional text <https://pimpmytype.com/functional-text/>
+- Media query https://www.geeksforgeeks.org/how-to-target-desktop-tablet-and-mobile-using-media-query/
+- Content (used for header formatting on [[Digital Garden overhaul with Obsidian Plugin\|Digital Garden overhaul with Obsidian Plugin]]) https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Generated_content

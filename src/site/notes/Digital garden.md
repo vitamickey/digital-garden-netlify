@@ -55,3 +55,9 @@ Nice examples:
 - [joelhooks.com](https://joelhooks.com/digital-garden)
 - [notes.leahferguson.com](https://notes.leahferguson.com/)
 - [https://www.ellyloel.com/now/](https://www.ellyloel.com/now/)
+
+Examples using the Digital Garden Plugin
+
+- [https://www.paologabriel.com/swamp/website-stack/](https://www.paologabriel.com/swamp/website-stack/)
+- [https://manim-personal.vercel.app/#personal-interest-things](https://manim-personal.vercel.app/#personal-interest-things)
+- [https://vivionline.neocities.org/#/](https://vivionline.neocities.org/#/) this is not a digital garden it is a neocity but I want the nintendo button thing it is so cute

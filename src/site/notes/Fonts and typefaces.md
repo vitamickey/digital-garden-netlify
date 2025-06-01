@@ -24,7 +24,7 @@ A typeface describes an overall style of letters, and fonts refer to the specifi
 
 ## Showcase
 
-### Pretty typefaces <3
+### Pretty typefaces
 
 - [Avara](https://velvetyne.fr/fonts/avara/) as prev. mentioned. A font that has no curves, only straight lines
 - [Wremena](https://typefaces.temporarystate.net/preview/Wremena) it's just vibey
@@ -35,7 +35,7 @@ A typeface describes an overall style of letters, and fonts refer to the specifi
 
 - [Cantique](https://velvetyne.fr/fonts/cantique/) Viet support with a Greek letter twist
 - [Recursive](https://www.recursive.design/) very cool... Viet support. But I got a bit sick of it, I think it's too *fun* for me.
-- [https://rosettatype.com/Handjet](https://rosettatype.com/Handjet) a variable font that animates letters using a grid of repeated elements
+- [Handjet](https://rosettatype.com/Handjet) a variable font that animates letters using a grid of repeated elements
 
 ### Typefaces with a story in my life
 
@@ -59,3 +59,21 @@ A typeface describes an overall style of letters, and fonts refer to the specifi
 - [Free Faces](https://www.freefaces.gallery/) 
 - [Fontshare](https://www.fontshare.com/) by the Indian Type Foundry
 - [Dirtyline Studio](https://dirtylinestudio.com/) 
+- [Pixel Surplus](https://pixelsurplus.com/) haven't used this but had a note about it from Jan 2023 so adding it here
+- [Font Squirrel](https://www.fontsquirrel.com/)
+- [font download](https://font.download/) 
+- [dafont](https://www.dafont.com/) 
+- [texturelabs](https://texturelabs.org/) 
+- [resourceboy](https://resourceboy.com/) 
+- [fontshare](https://www.fontshare.com/)
+- [uncut wtf](https://uncut.wtf/)
+- [xcicero esad-gv](https://xcicero.esad-gv.net/) just discovered via [this link](https://www.instagram.com/reel/C7hQnR3IRDa/) and wow they are stunning
+- [republish](https://republi.sh/) is a Vietnamese typeface foundry
+
+### for slightly less free
+
+- Paid but cheap [fontspring](https://www.fontspring.com/)
+
+## Identifying fonts
+
+Can't identify a font? [What the font?](https://www.myfonts.com/pages/whatthefont) 
