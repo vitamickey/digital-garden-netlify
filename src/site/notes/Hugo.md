@@ -1,0 +1,302 @@
+---
+{"dg-publish":true,"permalink":"/hugo/","title":"Hugo","tags":["website","technology","coding"],"created":"2022-05-23T15:04:53+10:00","updated":"2025-02-07"}
+---
+
+
+## Workflow
+
+(sorry my terminology may be all wrong when it gets to git-related things)
+
+- editing
+  - do whatever adding posts, changing taxonomies, etc.
+  - test as needed with `hugo server -D` as necessary (loads site at `http://localhost:1313/` without comments to avoid duplicate Disqus entries as specified I think in my `comments.html` partial)
+- when ready to update live site
+  - empty `/public/` except for `.git` and `CNAME`
+  - build static files with `hugo -t papermod`
+  - do github things
+    - create new branch for `public` submodule as `YYYY-MM-DD`
+    - stage all changes
+    - commit
+    - publish branch
+    - create pull request
+    - merge with `main`
+      - resolve any errors in VSCode if necessary (often with my clumsy coding skills is necessary)
+    - delete `YYYY-MM-DD` branch on GitHub
+    - check-out to `YYYY-MM-DD`  on VSCode
+    - delete `YYYY-MM-DD` branch locally on VSCode
+    - sync `main` with remote
+  - check site is live
+    - record any errors that may have happened
+  - repeat "do github things" with `digital-gardens` repo once satisfied
+  - 
+
+## Updating Hugo
+
+Follow this stuff from the [Installation guide](https://gohugo.io/installation/windows/):
+
+> Prebuilt binaries 
+>
+> Prebuilt binaries are available for a variety of operating systems and architectures. Visit the latest release page, and scroll down to the Assets section.
+>
+> Download the archive for the desired edition, operating system, and architecture
+> Extract the archive
+> Move the executable to the desired directory
+> Add this directory to the PATH environment variable
+> Verify that you have execute permission on the file
+> Please consult your operating system documentation if you need help setting file permissions or modifying your PATH environment variable.
+>
+> If you do not see a prebuilt binary for the desired edition, operating system, and architecture, install Hugo using one of the methods described below.
+
+Basically, download the old release ZIP file and add it to the go folder with the hugo.exe and replace the executable. Then you are ready to roll.
+
+## To-do
+
+I need to
+
+- ~~add comments with Disqus <https://gohugo.io/content-management/comments/>~~
+	- I did it previously but I got rid of it bc I didn't want it/couldn't be bothered maintaining it
+- make a stubs page?? <https://www.mtsolitary.com/stubs/> <https://www.mtsolitary.com/20210329232300-mt-solitary-stack/>
+- BACKLINKS??? lol I have a death wish <https://gabrielleearnshaw.medium.com/implementing-backlinks-in-a-hugo-website-e548d3d8f0e0> <https://www.mtsolitary.com/20210329232300-mt-solitary-stack/>
+- a search with filters like hugo tania or Maggie Appleton's website would be cool <https://gohugo.io/content-management/taxonomies/> <https://gronskiy.com/posts/filtering-posts-over-multiple-taxonomies-hugo/>
+  - ~~an option to see my posts related to any book of the bible, maybes~~
+    - ~~each book of the bible to have its own page that displays a list of all related notes and my own content written about it~~
+  - also don't generate pages for these?? I would just want to be able to filter through tags and such, don't need a page per tag or anything
+    - actually I may need to redact this, because it's kind of nice to have those since I cannot figure out backlinks for the life of me
+- ~~ordering by last tended, not by date planted: I now know how to do this~~
+- proper implementation of horticultural extended metaphor ?? or figure out my own metaphor (but plants are nice)
+- add relative dates to meta <https://kodify.net/hugo/date-time/relative-age-hugo/>
+- ~~make maths work on the site AAAAA~~
+- ~~increase list indentation~~
+- ~~if I make sublists there's like additional spacing below the last one~~
+  - a bit
+    - like this here
+  - this ^, so I need to figure out what's going on
+  - r.e. above I figured it out but like it's not quite fixed, but I made the `ul, ol` thingos with `margin = 16px`, i.e. font size of website, and it did happy things.
+  - OK with brute force I think I fixed it finally so  NICE thanks to <https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists>
+- side-by-side images?? I try the <https://discourse.gohugo.io/t/putting-image-side-by-side/3926> solution but there might be something in my CSS that botches this up.
+- blockquotes in lists
+    > they do not play nice. I mean, look at that spacing? :(
+- ~~footnotes bleed into meta[^1]. Due to poor placement of post meta~~
+- ~~on that, I've been formatting footnotes incorrectly lol.~~
+  - ~~Also, on notes like `judging-loving`, the meta spacing is influenced by spacing with the nav buttons. This was a result of poor placement of my post meta, but it's fixed now~~
+- favicon broken when moved into a different folder under `static`
+  - I have moved the site web manifest into the folder with the favicons, it wasn't there before
+	  - if this fixes it, I will revert changes I made in my `head.html` file as specified further below
+  - next attempt at quick fix: move it back to where it was when it worked lol
+- nested tags?? <https://dpb587.me/post/2020/03/09/nested-taxonomies-with-hugo/>
+- css for code blocks (see end of page)
+  - for different languages
+    - text
+    - html
+    - css
+    - latex
+    - R
+    - python
+    - markdown
+  - they are currently all broken rip
+- Emoji support <https://www.markdownguide.org/extended-syntax/#emoji>
+
+here is something else that isn't nice
+
+- here is a list
+  - and a subpoint
+  - and another
+
+- and when I put another list below it with a space
+  - it's gonna get
+  - kinda hairy because the spacing gets really weird between the parent and subpoint
+- idk what to do
+- here's me trying more stuff
+  - and another indent
+
+Maybe this is just markdown being markdown.
+
+- Here is another list below it with a space
+  - with two
+  - subpoints
+- and back out
+- another parent point
+  - and another indent
+
+<!-- 1. let's
+    1. fix
+        1. this
+        2. issue
+    2. today
+    3. like now
+1. because
+2. it is
+3. annoyings
+
+what is happening
+
+- let's
+    - fix
+        - this
+    - issue
+    - today
+- because
+- it is
+- annoying -->
+
+## Changelog and lessons learned
+
+I already have broken my website.
+
+I started with `hugo new post/so-it-began.md` to create my first post, and then tried to change the folder "post" to "posts", added a second file with `hugo new posts/digital-garden.md`, and now it's not showing up on my website. lol.
+
+Thanks to this video for the setup guide tho <https://www.youtube.com/watch?v=LIFvgrRxdt4>. And I think I used <https://janezhang.ca/posts/building-website-with-hugo/> for inspo.
+
+I am a bit unnerved by the fact that he doesn't merge to the main branch via a pull request and instead commits straight to the main branch. I am 99% sure that is bad git practice.
+
+I started with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme, and then tried using PaperModX for a bit, and then decided to switch back to PaperMod because 1. I figured out how to better use Hugo and 2. PaperModX had too many bugs for me.
+To build my site, need to use `hugo -t PaperMod` (or instead of `PaperMod`, the current website theme).
+
+To customise CSS and HTML of a theme, you should **override** these rather than edit the themes files directly. The PaperMod files of my website were downloaded onto my laptop and edited directly, which I shouldn't have done. For HTML, images, etc., you can create a new file in the folders of your actual site, rather than the theme's folders. For example, to overwrite `head.html` stored in `/my-site/themes/theme-name/layout/partials/` you can copy that file into something like `/my-site/layouts/partials/` and then the content of that file will overwrite the original file. This is especially important if you have cloned a repository (but that's kinda of obvious, right?). To do that but for CSS, I am referencing Banjo Code.
+
+<https://www.banjocode.com/post/hugo/custom-css/>
+
+Had to do this too
+<https://stackoverflow.com/questions/65040931/hugo-failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource>
+
+Did this
+<https://bphogan.com/2020/08/11/2020-08-11-creating-unlisted-content-in-hugo/>
+
+Changed markdown to render HTML with <https://gohugo.io/getting-started/configuration-markup/> by changing goldmark renderer to `unsafe = true`
+
+In `head.html`, changed something about favicon stuff because I moved my favicon files elsewhere and my website does not like it so seeing if this fixes it.
+
+```html
+{{/*  <link rel="icon" href="{{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}">
+-> <link rel="icon" href="{{ .Site.Params.assets.favicon | absURL }}">
+```
+
+Unsure how to nest functions in hugo yet.
+
+Added URLS to the books of Bible overview pages so that instead of `/46-1-corinthians/` being the end of the URL, it's just `/1-corinthians/` <https://gohugo.io/content-management/urls/>. Doesn't cause clashes with `/booksofbible/1-corinthians/`.
+
+Actually, now I've changed it so that `/1-corinthians/` links to a page that displays every page that hasthe `1-corinthians` term in the `booksofbible` key, and I've added a custom `_index.md` to each directory `\content\booksofbible\BOOKNAME\` so that I can put my overview of each book of the bible there. I think chapters of the bible would make it too messy, but I think I could try and implement that in future. Unfortunately, I don't think Hugo has sub-taxonomies. Also, each `booksofbible` term now is a weighted page.
+
+[^1]: Example (fixed)
+
+Light to dark mode logo swap from <https://push.blue/posts/20220718-add-lightdarklogoswap/>
+
+```text
+themes\PaperMod\layouts\partials\footer.html
+themes\PaperMod\layouts\partials\header.html
+```
+
+to
+
+```text
+layouts\partials\footer.html
+layouts\partials\header.html
+```
+
+and then
+
+```html
+--- themes\PaperMod\layouts\partials\footer.html        2022-07-18 09:47:47.635823100 -0700
++++ layouts\partials\footer.html                        2022-07-15 13:59:02.482056200 -0700
+@@ -75,9 +75,11 @@
+         if (document.body.className.includes("dark")) {
+             document.body.classList.remove('dark');
+             localStorage.setItem("pref-theme", 'light');
++            document.getElementById("siteLogo").src = "/images/pushblue-dark.png";
+         } else {
+             document.body.classList.add('dark');
+             localStorage.setItem("pref-theme", 'dark');
++            document.getElementById("siteLogo").src = "/images/pushblue-light.png";
+         }
+     })
+```
+
+and
+
+```html
+--- themes\PaperMod\layouts\partials\header.html        2022-07-18 09:47:47.635823100 -0700
++++ layouts\partials\header.html                        2022-07-15 13:59:02.482056200 -0700
+@@ -63,13 +63,35 @@
+                     <img src="{{ $img.Permalink }}" alt="logo" aria-label="logo"
+                         height="{{- site.Params.label.iconHeight | default "30" -}}">
+                 {{- else }}
+-                <img src="{{- site.Params.label.icon | absURL -}}" alt="logo" aria-label="logo"
++                <img id="siteLogo" src="{{- site.Params.label.icon | absURL -}}" alt="logo" aria-label="logo"
+                     height="{{- site.Params.label.iconHeight | default "30" -}}">
++                    <script>
++                        if (document.body.className.includes("dark")) {
++                            document.getElementById("siteLogo").src = "/images/pushblue-light.png";
++                        }
++                    </script>
+                 {{- end -}}
+                 {{- end -}}
+```
+
+does the trick
+
+And while we're at it, push blue brings up a good point in that the nav seems backwards. this[^reverse] makes it so that the right arrow goes to the future and the left arrow goes to the past.
+
+```html
+--- themes\PaperMod\layouts\partials\post_nav_links.html        2022-07-18 09:47:47.635823100 -0700
++++ layouts\partials\post_nav_links.html                        2022-07-18 09:56:20.596032400 -0700
+@@ -1,14 +1,14 @@
+ {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+ {{- if and (gt (len $pages) 1) (in $pages . ) }}
+ <nav class="paginav">
+-  {{- with $pages.Next . }}
++  {{- with $pages.Prev . }}
+   <a class="prev" href="{{ .Permalink }}">
+     <span class="title">A« {{ i18n "prev_page" }}</span>
+     <br>
+     <span>{{- .Name -}}</span>
+   </a>
+   {{- end }}
+-  {{- with $pages.Prev . }}
++  {{- with $pages.Next . }}
+   <a class="next" href="{{ .Permalink }}">
+     <span class="title">{{ i18n "next_page" }} A»</span>
+     <br>
+```
+
+### 2023.10.03
+
+Trying to get the site back up and I seem to have hit a road block where the page just doesn't have any sort of styling occuring. Above, I discussed that when this happened last (I assume this is for the same issue), I...
+
+> Had to do this too
+> <https://stackoverflow.com/questions/65040931/hugo-failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource>
+
+Now, I think I will use the `head.html` file from the newest version of Papermod with the following code in my `config.yaml` file:
+
+```xml
+params:
+    assets:
+        disableFingerprinting: true
+```
+
+IT WORKED! Don't need the other fix anymore. 
+
+#### Favicon troubleshooting
+
+uh
+
+## Header external link to garden stuff
+
+I made a cute little thing on https://editor.method.ac/ and then added to `header.html`.
+
+```
+                        <path d="m691,343c8,6 8,6 7.95313,5.9534c0.04687,0.0466 5.04687,-47.9534 -6.95313,13.0466" opacity="NaN" fill="currentColor"/>
+
+                        <path d="m651,357" opacity="NaN" fill="currentColor"/>
+
+                        <path d="m700.485,308.03792l0.56913,0l0.17587,-0.54067l0.17587,0.54067l0.56913,0l-0.46044,0.33415l0.17588,0.54067l-0.46044,-0.33416l-0.46044,0.33416l0.17588,-0.54067l-0.46044,-0.33415z" fill="currentColor"/>
+
+                        <path d="m647.91964,290.31466c0.12781,-0.28313 0.35823,-0.52479 0.55426,-0.76461c0.22804,0.15391 0.42505,0.49249 0.59645,0.72831c-0.15288,0.27277 -0.37295,0.52118 -0.5712,0.76581c-0.21372,-0.22381 -0.39648,-0.47951 -0.57952,-0.72951l0,0l0.00001,0z" fill="currentColor"/>
+
+                        <path fill="currentColor" opacity="NaN" d="m555.15062,220.82672c-3.22766,3.51585 0.63401,5.24495 0.62824,5.22766c0.00577,0.0173 2.59943,-8.7435 -0.62824,-5.22766z"/>
+
+                        <path fill="currentColor" opacity="NaN" d="m-23.58793,-75.60289l-4.15562,-1.28531l4.15562,1.28531z"/>
+
+                        <path d="m6.00368,3.67933c2.06147,-5.16818 10.13838,0 0,6.6448c-10.13838,-6.6448 -2.06147,-11.81297 0,-6.6448z" stroke-width="1.5" fill="#000000"/>
+```
+
+[^reverse]: https://push.blue/posts/20220718-reverse-papermodnavlinks/

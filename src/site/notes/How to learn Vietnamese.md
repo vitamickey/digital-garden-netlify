@@ -5,6 +5,18 @@
 
 [[Vietnamese language\|Vietnamese language]]
 
+## Update on progress and current learning habits
+
+I would say I can, by ear, finally understand the sounds better. Not like I know how every sound maps to every letter combination, but I've certainly made gains just by having a basic understanding of the alphabet and prioritising listening to the sounds first.
+
+To do this, I purchased [Southern Vietnamese for Beginners - Book 1](https://www.amazon.com.au/Southern-Vietnamese-Beginners-Anh-Bui-ebook/dp/B08CKM1NS8) by Learn Vietnamese with Annie, downloaded all of the audio files onto an offline audio player, and listen to them in the car when I'm driving a route I'm familiar with (so that I don't... uh... crash).
+
+Doing so thus far, I have learnt a lot of basic vocabulary, can understand the basic listening dialogue, and can start to hear similarities or differences in the tones/phones. From here, I will eventually map these sounds back into written Vietnamese. Since audibly identifying the different phones is what I struggle with currently, I will focus on that for a while before getting too caught up in reading comprehension.
+
+Thank you Annie and team, you are amazing.
+
+I do not currently use [[Refold\|Refold]], despite having set up [[Refold Vietnamese\|Refold Vietnamese]], but I have taken some cues from it such as creating a VN language YouTube account, and also knowing I can access a great list of content to listen to in the future.
+
 ## Further reading
 
 - <https://flexiclasses.com/best-way-learn-vietnamese/>

@@ -1,9 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/eggplant-with-garlic-sauce/","title":"Eggplant with garlic sauce","tags":["recipe"],"created":"2022-09-17","updated":"2022-09-17"}
+{"dg-publish":true,"permalink":"/eggplant-recipes/","title":"Eggplant with garlic sauce","tags":["recipe"],"created":"2022-09-17","updated":"2022-09-17"}
 ---
 
+## Eggplant with garlic sauce
 
-## Eggplant
+
+
+## Roasted eggplant
 
 [[dailyish/2022/08/2022-08-09\|2022-08-09]]
 
